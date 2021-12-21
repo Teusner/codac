@@ -136,6 +136,14 @@
                   ${CMAKE_CURRENT_SOURCE_DIR}/tools/codac_Tools.h
                   ${CMAKE_CURRENT_SOURCE_DIR}/tools/codac_Eigen.cpp
                   ${CMAKE_CURRENT_SOURCE_DIR}/tools/codac_Eigen.h
+
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_CN.cpp
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_CN.h
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_DomCN.cpp
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_DomCN.h
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_DomCN_Interval.h
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_AbstractCtc.cpp
+                  ${CMAKE_CURRENT_SOURCE_DIR}/cn2/codac_AbstractCtc.h
                   )
 
 
@@ -165,9 +173,9 @@
                                           ${CMAKE_CURRENT_SOURCE_DIR}/tools)
   target_link_libraries(codac PUBLIC Ibex::ibex)
   
-  #set_property(TARGET codac PROPERTY CXX_STANDARD 17)
+  set_property(TARGET codac PROPERTY CXX_STANDARD 17)
   add_compile_options(-O3 -Wall)
-  #set_property(TARGET codac PROPERTY CXX_STANDARD_REQUIRED ON)
+  set_property(TARGET codac PROPERTY CXX_STANDARD_REQUIRED ON)
 
 
 ################################################################################
