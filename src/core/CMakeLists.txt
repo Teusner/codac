@@ -122,8 +122,10 @@
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_max.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_min.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_mod.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_norm.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_operators.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_pow.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_scalar.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_sign.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_sin.h
     ${CMAKE_CURRENT_SOURCE_DIR}/operators/codac2_sinh.h
